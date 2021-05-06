@@ -56,6 +56,7 @@ function normalizeAPIGatewayProxyEvent(
   const {
     requestContext: {
       http: { method },
+      authorizer
     },
     rawQueryString,
     headers = {},
@@ -80,6 +81,7 @@ function normalizeAPIGatewayProxyEvent(
   // so we need to readd them
   if (cookies) {
     headers['cookie'] = cookies.join('; ');
+    headers['authorizer'] = authorizer ? JSON.stringify(authorizer) : ''
   }
 
   if (body) {
