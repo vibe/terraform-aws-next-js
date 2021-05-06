@@ -1,6 +1,6 @@
 {
   "name": "@vibe.sh/tf-next",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "CLI build tool for AWS Next.js Terraform module.",
   "homepage": "https://registry.terraform.io/modules/dealmore/next-js/aws",
   "main": "index.js",
