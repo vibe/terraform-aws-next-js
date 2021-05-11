@@ -1,4 +1,4 @@
-import { build } from '@dealmore/tf-next-runtime';
+import { build } from '@vibe.sh/tf-next-runtime';
 import tmp from 'tmp';
 import {
   glob,

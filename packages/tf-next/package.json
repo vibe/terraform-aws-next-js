@@ -1,6 +1,6 @@
 {
   "name": "@vibe.sh/tf-next",
-  "version": "0.9.1",
+  "version": "0.9.5",
   "description": "CLI build tool for AWS Next.js Terraform module.",
   "homepage": "https://registry.terraform.io/modules/dealmore/next-js/aws",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "@vercel/build-utils": "2.10.1",
     "@vercel/frameworks": "^0.0.15",
     "@vercel/routing-utils": "^1.10.1",
-    "@vibe..sh/tf-next-runtime": "1.1.0",
+    "@vibe.sh/tf-next-runtime": "1.1.0",
     "archiver": "^5.1.0",
     "find-yarn-workspace-root": "^2.0.0",
     "fs-extra": "^9.0.1",

@@ -1,5 +1,5 @@
 {
-  "name": "@dealmore/terraform-aws-nextjs-ws",
+  "name": "@vibe.sh/terraform-aws-nextjs-ws",
   "version": "0.0.0",
   "private": true,
   "license": "Apache-2.0",
